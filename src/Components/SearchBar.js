@@ -1,4 +1,4 @@
-// components/SearchBar.js
+
 export default function SearchBar({ query, setQuery, onSearch }) {
     const handleKeyPress = (e) => {
         if (e.key === 'Enter') onSearch()
