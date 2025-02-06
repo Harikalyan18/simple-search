@@ -1,4 +1,4 @@
-// components/ProductGrid.js
+
 export default function ProductGrid({ products }) {
     return (
         <div className="product-grid">
@@ -19,5 +19,5 @@ export default function ProductGrid({ products }) {
                 </div>
             ))}
         </div>
-    );
+    )
 }
