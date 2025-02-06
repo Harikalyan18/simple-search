@@ -11,7 +11,6 @@ export default function App() {
   const [results, setResults] = useState([])
   const [currentPage, setCurrentPage] = useState(1)
   const [totalPages, setTotalPages] = useState(1)
-  // const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const API = 'https://api.searchspring.net/api/search/search.json'
   const SITE_ID = 'scmq7n'
@@ -51,8 +50,7 @@ export default function App() {
         setQuery={setQuery}
         onSearch={() => handleSearch(1)}
       />
-
-      {/* {loading && <div className="loading">Loading...</div>} */}
+          
       {error && <div className="error">{error}</div>}
 
       {results.length > 0 && (
