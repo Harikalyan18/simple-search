@@ -1,4 +1,4 @@
-// App.js (Controller/View Layer)
+
 import { useState } from 'react'
 import axios from 'axios'
 import SearchBar from './Components/SearchBar'
