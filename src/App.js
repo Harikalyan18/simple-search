@@ -43,7 +43,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1 className="title">ISLAND NATIVE</h1>
+      <h1 className="title">Product Search</h1>
 
       <SearchBar
         query={query}
